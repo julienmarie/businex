@@ -1,6 +1,7 @@
 defmodule Businex.Api.Calendar do
   @data_files %{
-    bacs: Businex.Data.Bacs
+    bacs: Businex.Data.Bacs,
+    ms: Businex.Data.MS
   }
 
   def business_day?(calendar, date) do
