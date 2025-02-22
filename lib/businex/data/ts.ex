@@ -1,4 +1,4 @@
-defmodule Businex.Data.MS do
+defmodule Businex.Data.TS do
   def get do
     %{
       working_days: [
